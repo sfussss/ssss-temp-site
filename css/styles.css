@@ -1,0 +1,76 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+html {
+	background-color: #efefef;
+}
+
+body {
+  
+}
+
+p {
+	line-height: 1.35em;
+}
+
+.fancy-header {
+	background-color: #393939;
+	padding-top: 120px;
+	padding-bottom: 80px;
+}
+
+.fancy-header .red-banner {
+	background-color: #806B6B;
+	margin-bottom: 50px;
+}
+
+.fancy-header h1 {
+	text-align: center;
+	color: #efefef;
+	font-size: 2em;
+	letter-spacing: 0.25em;
+	color: white;
+	text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
+	line-height: 1.25em;
+}
+
+.fancy-header .first-logo {
+	margin-right: 50px;
+}
+
+.fancy-header p {
+	text-align: center;
+}
+
+.fancy-content {
+	margin-top: 20px;
+	background-color: #efefef;
+}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+  body {
+    
+  }
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*  .logo {
+    background: url(logo2x.jpg) no-repeat;
+    background-size: 212px 303px;
+  }*/
+
+}
